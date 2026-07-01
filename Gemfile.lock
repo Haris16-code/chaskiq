@@ -18,9 +18,10 @@ GIT
   revision: 38e5fe5aebb43fbef54f926b05a57b4f6ce72753
   branch: main
   specs:
-    globalize (6.3.0)
-      activemodel (>= 4.2, < 8)
-      activerecord (>= 4.2, < 8)
+    globalize (7.1.3)
+      activemodel (>= 7.0, < 8.2)
+      activerecord (>= 7.0, < 8.2)
+      activesupport (>= 7.0, < 8.2)
       request_store (~> 1.0)
 
 GIT
