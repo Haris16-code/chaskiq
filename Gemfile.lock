@@ -14,8 +14,8 @@ GIT
       roadie (~> 5.0)
 
 GIT
-  remote: https://github.com/jules-w2/globalize.git
-  revision: 6013c2dd615759ff55892f950b4cb7e8ea36c641
+  remote: https://github.com/globalize/globalize.git
+  revision: 38e5fe5aebb43fbef54f926b05a57b4f6ce72753
   branch: main
   specs:
     globalize (6.3.0)

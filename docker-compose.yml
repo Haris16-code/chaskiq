@@ -16,8 +16,6 @@ x-app: &app
     ANYCABLE_DEBUG: ${DEBUG:-0}
     ANYCABLE_RPC_HOST: 0.0.0.0:50051
   image: chaskiq/chaskiq:1.1.0
-  tmpfs:
-    - /tmp
 
 x-backend: &backend
   <<: *app
@@ -86,7 +84,7 @@ services:
   postgres:
     image: postgres:14-alpine
     volumes:
-      - ~/apps/postgres:/var/lib/postgresql/data
+      - postgres:/var/lib/postgresql/data
     environment:
       #POSTGRES_USER: postgresql
       POSTGRES_USER: postgres
